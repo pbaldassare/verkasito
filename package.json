@@ -1,0 +1,9 @@
+{
+  "name": "verkasito",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sito statico Verka: nessuna dipendenza, il build copia i file in dist/",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -R index.html img fonts dist/"
+  }
+}
